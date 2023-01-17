@@ -1,0 +1,50 @@
+body{
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+    
+.top{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+.logo-livreur img{
+    height: 45px;
+    width: 45px;
+}
+
+.livraison{
+    display: flex;
+    flex-direction: column;
+}
+.livraison p{
+    margin: 0;
+    font-weight: 100;
+}
+.rue{
+    display: flex;
+    flex-direction: row ;
+    align-items: baseline;
+}
+.rue h3{
+    margin: 0;
+}
+.rue i {
+    color:#1ecfbe;
+}
+.user{
+    font-size: 30px;
+    font-weight:100;
+    background-color: #f5f5f5;
+    background-size: 200px;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.user i {
+    color:#1ecfbe;
+
+}
